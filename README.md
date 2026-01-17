@@ -1,16 +1,39 @@
-# notes_app
+# 📝 Notes App
 
-A new Flutter project.
+A sleek, minimalist Notes application built with Flutter, focusing on performance and clean typography.
 
-## Getting Started
+## ✨ Features
+* **Offline Persistence**: Your notes and theme preferences are locally stored using `SharedPreferences`, ensuring data is never lost on restart.
+* **Full CRUD Support**: Effortlessly create, read, update, and delete notes through an intuitive UI.
+* **Dynamic Theming**: Seamlessly switch between Light and Dark modes with instant updates powered by the `Provider` package.
+* **Polished UI/UX**:
+  - Beautiful typography using `Google Fonts` (Pacifico for branding, Crimson Text for readability).
+  - Contextual menus for each note using the `Popover` package.
+  - Custom navigation drawer with smooth transitions.
+  - iOS-style `CupertinoSwitch` for theme management.
 
-This project is a starting point for a Flutter application.
+## 🛠 Tech Stack
+- **Framework**: Flutter
+- **State Management**: Provider
+- **Local Storage**: SharedPreferences
+- **Fonts**: Google Fonts
+- **UI Components**: Popover, Cupertino Icons
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
+1. Clone this repository
+2. Install dependencies:
+    ```bash
+   flutter pub get
+3. Run the app:
+   ```bash
+   flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📸 Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="assets/screenshots/main_page.png" width="300">
+
+## 😺 Cute cat
+
+<img src="assets/screenshots/cat.gif" width="300">
+
+))))))))
